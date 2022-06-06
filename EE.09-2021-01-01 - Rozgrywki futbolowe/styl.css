@@ -1,0 +1,65 @@
+header
+{
+    color: white;
+    text-align: center;
+    height: 370px;
+}
+
+.infoMecz
+
+{
+    color: white;
+    text-align: center;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: left;
+    
+
+}
+
+.infoMecz:hover
+{
+    border: 1px solid white;
+    
+   
+   
+}
+
+main
+{
+    clear: both;
+    background-color: whitesmoke;
+    height: 50px;
+}
+
+#botLeft
+{
+    background-color: whitesmoke;
+    width: 70%;
+    height: 230px;
+    float: left;
+}
+
+#botRight
+{
+    background-color: whitesmoke;
+    width: 30%;
+    height: 230px;
+    text-align: center;
+    float: left;
+}
+
+body
+{
+    font-family: Tahoma;
+    background-color: Crimson;
+}
+
+h2
+{
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: capitalize;
+}
