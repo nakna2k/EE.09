@@ -15,7 +15,7 @@
 
     <section id="info">
 
-    <!-- skrypt 1 -->
+    <!-- skrypt 1  -->
 
     <?php
 
