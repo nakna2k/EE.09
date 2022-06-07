@@ -83,7 +83,7 @@
                     <p>grupa: $r[2]</p>
                     </section>";
                 }
-            
+         mysqli_close($conn);   
         ?>
 
 
