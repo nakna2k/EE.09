@@ -85,7 +85,7 @@
             }
 
 
-
+            mysqli_close($conn);
             ?>
         </form>
     </section>
