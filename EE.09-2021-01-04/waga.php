@@ -65,6 +65,7 @@
                 <td>$r[2]</td></tr>";
 
             }
+            mysqli_close($conn);
             ?>
             
         </table>
