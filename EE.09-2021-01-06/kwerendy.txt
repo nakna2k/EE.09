@@ -1,0 +1,4 @@
+SELECT id, nr_rejsu, czas, kierunek, status_lotu FROM odloty ORDER BY czas desc;
+SELECT MIN(czas) FROM odloty WHERE czas BETWEEN '10:10:00' AND '10:19:00';
+SELECT odloty.nr_rejsu, samoloty.linie FROM odloty JOIN samoloty on odloty.samoloty_id = samoloty.id WHERE odloty.kierunek = 'Malta';
+UPDATE przyloty SET stauts_lotu = 'planowy' WHERE nr_rejsu = 'LH9829';

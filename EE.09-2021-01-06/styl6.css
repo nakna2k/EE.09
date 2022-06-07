@@ -1,0 +1,60 @@
+#header1
+{
+    text-align: center;
+    width: 75%;
+    height: 150px;
+    font-size: 200%;
+    float: left;
+}
+#header2
+{
+    float: left;
+    width: 25%;
+    height: 150px;
+}
+main
+{
+    clear: both;
+    background-color: rgb(128,0,0);
+    pad: 50px;
+    text-transform: uppercase;
+}
+#footer1,
+#footer3
+{
+    float: left;
+    width: 20%;
+    padding-top: 90px;
+}
+#footer2
+{
+    float: left;
+    text-align: center;
+    width: 60%;
+}
+body
+{
+    font-family: Arial;
+    background-color: rgb(244,164,96);
+    color: white;
+}
+p
+{
+    font-size: 150%;
+    border: 2px dotted rgb(169,169,169);
+}
+p:hover
+{
+    background-color: rgb(169,169,169);
+}
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+
+}
+th,td
+{
+    border: 1px solid rgb(192,192,192);
+    padding: 5px;
+}
