@@ -1,0 +1,4 @@
+INSERT into wynik VALUES ('','1','2020-05-20','15');
+SELECT id, informacja, wart_min FROM bmi;
+SELECT wynik.wynik, bmi.informacja FROM wynik JOIN bmi ON wynik.id = bmi.id;
+SELECT wart_min, wart_max FROM bmi WHERE informacja = 'niedowaga';
