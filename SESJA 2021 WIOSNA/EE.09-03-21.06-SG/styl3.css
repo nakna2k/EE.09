@@ -1,0 +1,55 @@
+body
+{
+    font-family: Verdana;
+}
+#header1
+{
+    background-color: #29434E;
+    color: white;
+    text-align: center;
+    width: 70%;
+    height: 70px;
+    float: left;
+}
+#header2
+{
+    background-color: #29434E;
+    color: white;
+    width: 30%;
+    height: 70px;
+    float: left;
+}
+#polecamy,
+#filmyF
+{
+    background-color: #B0BEC5;
+    height: 320px;
+    overflow: scroll;
+}
+footer
+{
+    background-color: #29434E;
+    color: white;
+}
+.film
+{
+    float: left;
+    padding: 5px;
+    width: 226px;
+    height: 280px;
+}
+h3
+{
+    background-color: #546E7A;
+    color: white;
+    margin: 0px;
+}
+h4
+{
+    text-align: center;
+    margin: 0px;
+}
+#polecamy
+{
+    clear: both;
+}
