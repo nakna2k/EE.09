@@ -1,0 +1,60 @@
+body
+{
+    font-family: Georgia;
+}
+header
+{
+    background-color: #005B4F;
+    color: white;
+    text-align: center;
+    font-size: 50%;
+    height: 20px;
+}
+main
+{
+    background-color: #E1E2E1;
+    height: 400px;
+    padding: 20px;
+    overflow: scroll;
+}
+.zdj
+{
+    flex-direction: row;
+    width: 20%;
+}
+.opis
+{
+    flex-direction: row;
+}
+.linia
+{
+    clear: both;
+}
+#footer1,
+#footer2
+{
+    float: left;
+    background-color: #005B4F;
+    color: white;
+    text-align: center;
+    width: 50%;
+    height: 20px;
+}
+img
+{
+    padding: 20px;
+    border-radius: 100%;
+}
+h2
+{
+    text-align: center;
+    background-color: #00897B;
+}
+a
+{
+    color: white;
+}
+#box
+{
+    display: flex;
+}
