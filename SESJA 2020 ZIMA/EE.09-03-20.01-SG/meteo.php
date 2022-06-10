@@ -42,6 +42,7 @@
                 echo "<tr><td>$r[0]</td><td>$r[2]</td><td>$r[3]</td><td>$r[4]</td><td>$r[5]</td><td>$r[6]</td></tr>";
 
             }
+            mysqli_close($conn);
             ?>
         </table>
     </main>
