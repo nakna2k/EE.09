@@ -24,6 +24,7 @@
         {
             echo "$r[0]. $r[1], występuje w: $r[2]<br>";
         }
+        mysqli_close($conn);
         ?>
     <ol> 
         <li><a href="https://wedkuje.pl/" target="_blank">Odwiedź także</a></li>
