@@ -1,0 +1,4 @@
+INSERT INTO zgloszenia VALUES ("",'1','4','Warszawa, Staszica 34/5','1',CURRENT_TIME());
+SELECT adres, dyspozytorzy_id FROM zgloszenia WHERE ratownicy_id = 3;
+CREATE user 'anna' IDENTIFIED by 'Anna4!';
+GRANT INSERT, UPDATE, SELECT on pogotowie.zgloszenia TO 'anna';

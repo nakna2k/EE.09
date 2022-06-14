@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciągi liczbowe</title>
+    <link rel="stylesheet" href="styl2.css">
+</head>
+<body>
+    <header id="header-1">
+        <h2>Poznaj ciągi liczbowe</h2>
+    </header>
+    <header id="header-2">
+        <a href="liczby.html"><h5>Ciągi arytmetyczne</h5></a>
+    </header>
+    <header id="header-3">
+        <a href="fib.html"><h5>Ciąg Fibonacciego</h5></a>
+    </header>
+    <header id="header-4">
+        <img src="obraz1.png" alt="Fibonacci">
+    </header>
+    <div id="left">
+        <ol>
+            <li>ciągi arytmetyczne</li>
+            <li>ciągi geometryczne</li>
+            <li>ciąg Fibonacciego</li>
+        </ol>
+    </div>
+    <div id="right">
+        <h2>Generowanie ciągu arytmetycznego</h2>
+        <label>Pierwszy wyraz A1: <input type="number" id='a1'></label><br>
+        <label>Różnica ciągu R: <input type="number" id='r'></label><br>
+        <label>Liczba wyrazów ciągu N: <input type="number" id='n'></label><br>
+        <button onclick="oblicz()">Generuj Ciąg</button>
+        <p id="wynik"></p>
+    </div>
+    <footer>
+        <p>Autor: 00000000000</p>
+    </footer>
+</body>
+    <script>
+        function oblicz()
+        {
+            let a1 = document.getElementById('a1').value;
+            a1 = parseInt(a1);
+            let r = document.getElementById('r').value;
+            r = parseInt(r);
+            let n = document.getElementById('n').value;
+            n = parseInt(n);
+            let wynik = "Ciąg artmetyczny zawiera wyrazy: ";
+            wynik += a1;
+            for(let i = 1; i < n; i++) {
+                a1 = a1 + r;
+                wynik += ", " + a1;
+            }
+            document.getElementById('wynik').innerHTML = wynik;
+        }
+
+        
+    </script>
+</html>

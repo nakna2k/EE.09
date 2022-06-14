@@ -1,0 +1,50 @@
+body
+{
+    font-family: Tahoma;
+}
+#left,
+#right
+{
+    background-color: rosybrown;
+    color: white;
+    width: 30%;
+    height: 200px;
+}
+#center
+{
+    background-color: rosybrown;
+    color: white;
+    width: 40%;
+    height: 200px;
+    text-align: center;
+}
+main
+{
+    background-color: Wheat;
+    padding: 50px;
+}
+footer
+{
+    background-color: rosybrown;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+a
+{
+    border: 2px solid darkRed;
+    background-color: Salmon;
+    color: darkred;
+    padding: 20px;
+    line-height: 200px;
+}
+#left,
+#center,
+#right
+{
+    float: left;
+}
+main
+{
+    clear: both;
+}
